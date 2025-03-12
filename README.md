@@ -1,5 +1,6 @@
 # Project
 Please look through my project the war file is failing to run 
 
-I have created the model classes, the controllers, the DAO and the Service files though i had not yet finised linkig them up.
-I have the properties file set and the JSP files the web and the dispatcher servlet files are set and the pom file but the war file is not running.
+I get error  Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private Products.Product.Service.ProductService Products.BoutiqueManagmentSystem.ProductController.productservice; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type [Products.Product.Service.ProductService] found for dependency: expected at least 1 bean which qualifies as autowire candidate for this dependency. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+
+      I have sofar created the save method buts for now the war file does not start up.
